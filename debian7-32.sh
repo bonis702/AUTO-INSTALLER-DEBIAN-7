@@ -167,7 +167,15 @@ wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/
 wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/speedtest"
 wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/tendang"
 wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/usernew"
-
+chmod +x menu
+chmod +x speedtest
+chmod +x bench
+chmod +x login
+chmod +x memori
+chmod +x usernew
+chmod +x akun
+chmod +x tendang
+cd
 
 #Blockir Torrent
 iptables -A OUTPUT -p tcp --dport 6881:6889 -j DROP
