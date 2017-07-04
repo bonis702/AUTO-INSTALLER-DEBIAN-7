@@ -157,6 +157,17 @@ rm /root/webmin_1.850_all.deb
 service webmin restart
 service vnstat restart
 
+# downlaod script
+cd /usr/bin
+wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/akun"
+wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/bench"
+wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/login"
+wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/memori"
+wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/menu"
+wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/speedtest"
+wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/tendang"
+wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/usernew"
+
 
 #Blockir Torrent
 iptables -A OUTPUT -p tcp --dport 6881:6889 -j DROP
