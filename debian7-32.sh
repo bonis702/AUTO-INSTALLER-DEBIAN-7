@@ -233,5 +233,6 @@ echo ""  | tee -a log-install.txt
 echo "Log Installasi --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "SILAHKAN REBOOT VPS ANDA !"  | tee -a log-install.txt
+echo "KETIKAN MENU UNTUK MELIHAT DAFTAR COMAND"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "==============================================="  | tee -a log-install.txt
