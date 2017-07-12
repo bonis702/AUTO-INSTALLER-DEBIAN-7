@@ -1,0 +1,1 @@
+service dropbear restart && service webmin restart && service nginx restart && service ssh restart && service fail2ban restart && service snmpd restart && service openvpn restart && service cron restart
