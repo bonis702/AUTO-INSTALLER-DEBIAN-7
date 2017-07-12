@@ -179,6 +179,8 @@ wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/
 wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/speedtest"
 wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/tendang"
 wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/usernew"
+wget "https://raw.githubusercontent.com/bonis702/AUTO-INSTALLER-DEBIAN-7/master/restall"
+chmod +x restall
 chmod +x menu
 chmod +x speedtest
 chmod +x bench
